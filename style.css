@@ -1,0 +1,147 @@
+*{
+    margin: 0 auto;
+    padding: 0 ;
+}
+.first_screen{
+    width: 100%;
+    height: 900px;
+    background-image: url(https://www.krgroup.com/wp-content/uploads/2021/07/annie-spratt-QckxruozjRg-unsplash.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first_screen_menu{
+    height: 59px;
+    width: 583px;
+    left: 932px;
+    top: 40px;
+}
+li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-top: 30px;
+}
+ul{
+    display: flex;
+}
+.line{
+    width: 100%;
+    height: 0px;
+    opacity: 0.5;
+    border: 1px solid #A1A1A1;
+    margin-top: 30px;
+}
+.paragraph1{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 319px;
+    height: 20px;
+    width: 175px;
+}
+.paragraph2{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    height: 111px;
+    width: 829px;
+}
+button{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 850px;
+    top: 200px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    color: #FFFFFF;
+    border: none;
+
+}
+.first_screen_main{
+    position: relative;
+}
+.services{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.services1{
+    height: 400px;
+    width: 1113px;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+.section1_h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+}
+.about_services{
+    margin: 0 auto;
+    width: 600px;
+}
+.section1_p{
+    color: #999999;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+.services_items{
+    display: flex;
+}
+.services_item{
+    height: 139px;
+    width: 353px;
+    margin-top: 50px;
+}
+.icon1{
+    border: 1px solid #E0E0E0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #4985FF; */
+}
+.img_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #4985FF;
+    border-radius: 50%;
+}
+h3{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
