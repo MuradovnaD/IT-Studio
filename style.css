@@ -4,18 +4,16 @@
 }
 .first_screen{
     width: 100%;
-    height: 900px;
-    background-image: url(https://www.krgroup.com/wp-content/uploads/2021/07/annie-spratt-QckxruozjRg-unsplash.jpg);
+    height: 750px;
+    background-image: url(./images/Rectangle.png);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .first_screen_menu{
-    height: 59px;
+    height: 60px;
     width: 583px;
-    left: 932px;
-    top: 40px;
 }
 li{
     font-family: 'Montserrat';
@@ -32,7 +30,6 @@ ul{
 }
 .line{
     width: 100%;
-    height: 0px;
     opacity: 0.5;
     border: 1px solid #A1A1A1;
     margin-top: 30px;
@@ -45,7 +42,7 @@ ul{
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 319px;
+    margin-top: 12em;
     height: 20px;
     width: 175px;
 }
@@ -60,12 +57,12 @@ ul{
     height: 111px;
     width: 829px;
 }
-button{
+.first_screen_button{
     position: absolute;
     width: 200px;
     height: 45px;
-    left: 850px;
-    top: 200px;
+    left: 40em;
+    top: 13em;
     background: #4985FF;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
@@ -86,7 +83,7 @@ button{
     width: 1113px;
     position: absolute;
     top: 150px;
-    left: 400px;
+    left: 200px;
 }
 .section1_h2{
     font-family: 'Montserrat';
@@ -117,6 +114,7 @@ button{
     height: 139px;
     width: 353px;
     margin-top: 50px;
+    position: relative;
 }
 .icon1{
     border: 1px solid #E0E0E0;
@@ -126,7 +124,8 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #4985FF; */
+    position: absolute;
+    right: 170px;
 }
 .img_icon{
     display: flex;
@@ -142,6 +141,171 @@ h3{
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
+    position: absolute;
+    left: 210px;
+    bottom: 100px;
 }
+.services_item_p{
+    position: absolute;
+    width: 150px;
+    height: 58px;
+    font-size: 13px;
+    left: 200px;
+    top: 35px;
+}
+.about_us{
+    width: 100%;
+    height: 770px;
+    background-color:  #F6F6F8;
+    position: relative;
+}
+.about_us_text{
+    width: 489px;
+    height: 295px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+.about_us_h2{
+    height: 88px;
+    width: 424px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 53px;
+}
+.about_us_p{
+    height: 117px;
+    width: 410px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Montserrat';
+    color: #999999;
+    padding-top: 20px;
+    padding-bottom: 110px;
+}
+a{
+    width: 202px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
+    margin-left: 40px;
+}
+.about_img{
+    position: absolute;
+    left: 800px;
+    top: 100px;
+    width: 500px;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+}
+.about_line{
+    width: 900px;
+    border-bottom: 2px solid  #E0E0E0;
+    padding-top: 600px;
+}
+.numbers{
+    margin-top: 40px;
+    width: 50%;
+}
+.about_us_numbers{
+    position: relative;
+}
+.p_projects{
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+    width: 54px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 53px;
+    color: #000000;
+}
+.our_projects{
+    width: 100px;
+    height: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin-top: 5px;
+}
+.section3{
+    height: 800px;
+}
+.purple_section{
+    width: 100%;
+    height: 490px;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+.purple_s_h2{
+    width: 500px;
+    height: 88px;
+    margin-left: 260px;
+    padding-top: 90px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+.purple_button{
+    width: 200px;
+    height: 45px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border: none;
+    margin-left: 1050px;
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.cards{
+    position: relative;
+    width: 70%;
+    margin-top: 80px;
+
+}
+.card img{
+    width: 330px;
+    height: 290px;
+    border-radius: 10px
+}
+.card{
+    border: none;
+}
+/* .card_p{
+    width: 300px;
+    height: 117px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+}
+.card_h3{
+    width: 281px;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+} */
