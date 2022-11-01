@@ -2,6 +2,8 @@
     margin: 0 auto;
     padding: 0 ;
 }
+
+/* Header */
 .first_screen{
     width: 100%;
     height: 750px;
@@ -73,6 +75,10 @@ ul{
 .first_screen_main{
     position: relative;
 }
+/*  */
+
+
+/*  Start first section  */
 .services{
     width: 100%;
     height: 700px;
@@ -153,6 +159,11 @@ h3{
     left: 200px;
     top: 35px;
 }
+/*  */
+
+
+
+/* Start the Second Section  */
 .about_us{
     width: 100%;
     height: 770px;
@@ -205,7 +216,7 @@ a{
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
 }
-.about_line{
+.section2_line{
     width: 900px;
     border-bottom: 2px solid  #E0E0E0;
     padding-top: 600px;
@@ -219,14 +230,14 @@ a{
 }
 .p_projects{
     position: absolute;
-    left: 30px;
-    bottom: 25px;
+    left: 37px;
+    top: -12px;
     width: 54px;
     height: 35px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 53px;
     color: #000000;
 }
@@ -239,10 +250,14 @@ a{
     font-size: 16px;
     line-height: 25px;
     color: #999999;
-    margin-top: 5px;
 }
+/*  */
+
+
+
+/*  Start the third Section */
 .section3{
-    height: 800px;
+    height: 850px;
 }
 .purple_section{
     width: 100%;
@@ -283,29 +298,74 @@ a{
 
 }
 .card img{
+    position: relative;
     width: 330px;
     height: 290px;
-    border-radius: 10px
+    border-radius: 10px;
 }
 .card{
     border: none;
 }
-/* .card_p{
-    width: 300px;
-    height: 117px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    color: #999999;
-}
 .card_h3{
+    position: absolute;
+    bottom: 140px;
+    left: 5px;
     width: 281px;
     height: 17px;
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
-} */
+}
+.card_p{
+    width: 300px;
+    height: 117px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #999999;
+    margin: 40px 0 0;
+}
+.card_a_href{
+    margin-left: 0;
+}
+.section3_line{
+    width: 69%;
+    border-bottom: 1px solid  #E0E0E0;
+    padding-top: 60px;
+}
+/*  */
+
+
+
+ /* Start the fourth  Section  */
+ .all_projects{
+    height: 776px;
+    width:100%;
+    background-color: #F6F6F8;
+ }
+ .section4_h2{
+    height: 35px;
+    width: 350px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: center;
+    padding-top: 80px;
+ }
+ .section4_p{
+    height: 40px;
+    width: 620px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    padding-top: 60px;
+ }
+ .images{
+    width: 50%;
+    margin-top: 90px;
+ }
+.code_img{
+    width: 170px;
+}
