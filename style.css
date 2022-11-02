@@ -17,7 +17,7 @@
     height: 60px;
     width: 583px;
 }
-li{
+.header_li{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -27,7 +27,7 @@ li{
     list-style-type: none;
     margin-top: 30px;
 }
-ul{
+.header_ul{
     display: flex;
 }
 .line{
@@ -41,7 +41,6 @@ ul{
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
     margin-top: 12em;
@@ -53,7 +52,6 @@ ul{
     font-size: 48px;
     font-weight: 800;
     line-height: 64px;
-    letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
     height: 111px;
@@ -63,8 +61,8 @@ ul{
     position: absolute;
     width: 200px;
     height: 45px;
-    left: 40em;
-    top: 13em;
+    left: 40rem;
+    top: 13rem;
     background: #4985FF;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
@@ -460,17 +458,17 @@ a{
 
 
 /* Start the sixth Section */
-.section5{
+.section6{
     width: 100%;
-    height: 400px;
+    height: 300px;
 }
 .subscribe{
     position: relative;
     width: 730px;
     height: 177px;
-    margin-top: 350px;
+    margin-top: 30px;
 }
-.section5_h3{
+.section6_h3{
     position: absolute;
     width: 350px;
     height: 17px;
@@ -480,11 +478,91 @@ a{
     text-align: center;
     color: #000000;
 }
-.section5_p{
+.section6_p{
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
     color: #999999;
-    margin-left: -400px;
-    margin-top: -40px;
+    padding-top: 90px;
+    padding-left: 170px;
 }
+.email{
+    width: 400px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    margin-left: 130px;
+    padding-left: 30px;
+    color: #999999;
+}
+label{
+    width: 190px;
+    height: 45px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+    color: #FFFFFF;
+    margin-left: -100px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.section6_p_end{
+    width: 386px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+    margin-top: 25px;
+}
+/*  */
+
+
+
+/* Footer */
+.footer{
+    height: 413px;
+    width: 100%;
+    background-color: #F6F6F8;
+    padding-top: 50px;
+}
+.footer_h6{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+}
+li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    padding-top: 15px;
+}
+.footer_line{
+    width: 77%;
+    border-bottom: 1px solid  #E0E0E0; 
+    padding-top: 40px; 
+}
+.footer_p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #999999;
+    padding-top: 20px;
+}
+.fa-angle-right{
+    margin-right: 10px;
+}
+
